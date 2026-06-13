@@ -1,0 +1,119 @@
+.rota {
+    color: rgb(19, 63, 207);
+    text-align: center;
+    font-size: 7vh;
+}
+
+body .info .viaje {
+    margin-left: 50px;
+}
+
+body div p{
+    font-size: 5vh;
+    margin-left: 55px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.67vh;
+    width: 85vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topo {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 120px;
+    padding: 0 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.emblema {
+    background-image: url("../imagens/Emblema.jpeg");
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 40px;
+}
+
+.ImgCaboFrio {
+    margin-left: 57px;
+    background-image: url("../imagens/Cabo-Frio.jpg");
+    height: 480px;
+    width: 420px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+.busca {
+    height: 55px;
+    width: 600px;
+    background-color: rgb(233, 233, 233);
+    margin-left: 50px;
+    border-radius: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+}
+
+.pesquisar {
+    margin-right: 390px;
+    font-size: 25px;
+    color: rgb(182, 182, 182);
+}
+
+.cabofrio {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+}
+
+.base {
+    font-size: 30px;
+}
+
+.publico {
+    color: rgb(133, 133, 133);
+    margin: 40px;
+}
+
+.BarraLateral {
+    background-color: rgb(217, 255, 255);
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    height: 100vw;
+    width: 500px;
+}
+
+.ConteinerMestre {
+    display: flex;
+    flex-direction: row;
+}
+/* Aqui termina a estiização do index.html e começa o do sobre.html */
