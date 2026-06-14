@@ -216,4 +216,30 @@ body, html {
     flex-direction: row;
 }
 
+/* Aqui começa a edição do sobre.html */
 /* Foram aproveitadas classes da página inicial para fazer o contato.html */
+
+.imgsobre {
+    background-image: url("../imagens/container_image.jpeg");
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.conteinersobre {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.txtesquerdo {
+    font-size: 30px;
+}
+.txtdireito {
+    font-size: 30px;
+}
