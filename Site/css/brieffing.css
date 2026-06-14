@@ -8,7 +8,7 @@ body .info .viaje {
     margin-left: 50px;
 }
 
-body div p{
+body div p {
     font-size: 5vh;
     margin-left: 55px;
 }
@@ -33,7 +33,7 @@ body, html {
 .topo {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    width: 85vw;
     height: 120px;
     padding: 0 20px;
     background-color: rgb(255, 255, 255);
@@ -54,7 +54,7 @@ body, html {
 .ImgCaboFrio {
     margin-left: 57px;
     background-image: url("../imagens/Cabo-Frio.jpg");
-    height: 480px;
+    height: 380px;
     width: 420px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,111 @@ body, html {
     border-style: solid;
     border-radius: 10px;
     height: 100vw;
-    width: 500px;
+    width: 28vh;
 }
 
 .ConteinerMestre {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
-/* Aqui termina a estiização do index.html e começa o do sobre.html */
+
+.conteiner {
+    height: 800px;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+}
+
+.basta {
+    display: flex;
+    justify-content: center;
+}
+
+.nome {
+    height: 55px;
+    width: 600px;
+    background-color: rgb(215, 255, 255);
+    margin-left: 50px;
+    border-radius: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+}
+
+.telefone {
+    height: 55px;
+    width: 600px;
+    background-color: rgb(215, 255, 255);
+    margin-left: 50px;
+    border-radius: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+}
+
+.senha {
+    height: 55px;
+    width: 600px;
+    background-color: rgb(215, 255, 255);
+    margin-left: 50px;
+    border-radius: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+}
+
+.email {
+    height: 55px;
+    width: 600px;
+    background-color: rgb(215, 255, 255);
+    margin-left: 50px;
+    border-radius: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Aqui termina a estiização do index.html e começa a estilização exclusiva do contato.html */
+
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 480px;
+    width: 420px;
+}
+.img1 {
+    background-image: url("../imagens/FotoPerfil.png");
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+.img2 {
+    background-image: url("../imagens/telefone.png");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+.converse {
+    margin-left: 60px;
+    color: red;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Foram aproveitadas classes da página inicial para fazer o contato.html */
